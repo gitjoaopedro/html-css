@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+H1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aqua;
+}
+h1#principal{
+    color: black;
+    text-align: center;
+}
+h2{
+    color: brown;
+    text-align: right;
+}
+

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-image: -moz-linear-gradient(to right red
+    orange);
+}
+main {
+    background-color: aqua;
+    width: 600px;
+    padding: 400px;
+    margin: auto;
+    
+}
+p {
+    text-align: justify;
+    color: blue;
+}
+h1 {
+    color: cornflowerblue;
+}

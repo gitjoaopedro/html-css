@@ -38,6 +38,7 @@ header > p {
 }
 
 header a, footer a {
+    font-family: var(--font3);
     color: white;
     text-decoration: none;
     font-weight: bolder;
@@ -50,10 +51,14 @@ header a:hover, footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.5em;
     padding-left: 30px;
     font-family: var(--font3);
     font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal {
@@ -64,12 +69,27 @@ section.normal {
 section.imagem {
     background-color: rgba(46, 44, 44, 0.842);
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
 }
 
 section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.281);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
 }
 
 footer {
